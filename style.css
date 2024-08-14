@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+nav {
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    padding: 6px 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    max-width: 450px;
+    background-color: #797c85;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 20px;
+    gap: 10px;
+}
+
+.fa-solid {
+    font-size: 60px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 1.4px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input {
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+}
+
+button {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #121212;
+    color: #fff;
+}
+
+.icon {
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #4d5964;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        width: 300px;
+    }
+
+    input {
+        width: 200px;
+        height: 40px;
+    }
+
+    .icon {
+        flex: 1;
+        height: 41px;
+        line-height: 41px;
+    }
+
+    .fa-solid {
+        font-size: 40px;
+        color: white;
+    }
+
+    h1 {
+        letter-spacing: 1px;
+    }
+
+    
+}
